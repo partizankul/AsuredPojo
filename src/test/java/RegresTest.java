@@ -28,7 +28,7 @@ public class RegresTest {
        Assert.assertTrue(users.stream().allMatch(x->x.getEmail().endsWith("@reqres.in"))); // проверяет на все совпадения с частью строки
     }
 
-    @Test
+  /*  @Test
     public void successRegTest(){
         Specifications.installSpecification(Specifications.requestSpec(URL), Specifications.responseSpecOK200());
         Integer id = 4;
@@ -43,6 +43,6 @@ public class RegresTest {
         Assert.assertEquals(id, successReg.getId());
         Assert.assertEquals(token, successReg.getToken());
 
-    }
+    } */
 
 }
